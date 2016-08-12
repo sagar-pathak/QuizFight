@@ -67,12 +67,12 @@
 		</div>
 		<div class="col-md-8 col-xs-12 col-md-offset-2">
 			<div class="row">
-				<div class="options-border col-md-6 col-xs-6 btn btn-primary btn-lg">Option 1</div>
-				<div class="options-border col-md-6 col-xs-6 btn btn-primary btn-lg">Option 2</div>
+				<div class="options-border col-md-6 col-xs-6 btn btn-primary btn-lg">MA Tree</div>
+				<div class="options-border col-md-6 col-xs-6 btn btn-primary btn-lg">Mounty</div>
 			</div>
 			<div class="row">
-				<div class="options-border col-md-6 col-xs-6 btn btn-primary btn-lg">Option 3</div>
-				<div class="options-border col-md-6 col-xs-6 btn btn-primary btn-lg">Option 4</div>
+				<div class="options-border col-md-6 col-xs-6 btn btn-primary btn-lg">Rowan</div>
+				<div class="options-border col-md-6 col-xs-6 btn btn-primary btn-lg">BigFire</div>
 			</div>
 		</div>
 	</div>
