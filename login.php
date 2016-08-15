@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="assets/css/bootstrap.css" media="screen">
 		<link rel="stylesheet" href="assets/css/custom.css" media="screen">
 		<script src="assets/js/jquery-1.10.2.min.js"></script>
-		<script src="assets/js/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="assets/js/bootstrap/dist/js/bootstrap.js"></script>
 	</head>
 	<body>
 	<div class="container">
@@ -38,7 +38,7 @@
 		    <div class="form-group">
 		      <label for="inputLoginButton" class="col-lg-1 control-label"></label>
 		      <div class="col-lg-10">
-		        <a class="btn btn-primary" href="login.php">Login</a>&nbsp;<a href="register.php" class="btn btn-success">Register</a>
+		        <a class="btn btn-primary" href="index.php">Login</a>&nbsp;<a href="register.php" class="btn btn-success">Register</a>
 		      </div>
 		    </div>
 	    	</fieldset>
