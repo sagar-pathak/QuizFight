@@ -9,6 +9,7 @@
 		<script src="assets/js/jquery-1.10.2.min.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/holder.js"></script>
+		<script src="assets/js/custom.js"></script>
 		<style>
 			.options-border {
 			   border: solid white 4px;
@@ -16,6 +17,12 @@
 			.navbar-collapse {
 			    padding-right: 0px;
 			    padding-left:0px;
+			}
+			.jumbotron{
+				padding-left:20px;
+				padding-right:20px;
+				margin-left: -10px;
+				margin-right: -10px;
 			}
 		</style>
 	</head>
@@ -62,22 +69,60 @@
 		</nav>
 
 	<div class="row">
-		<div class="jumbotron col-md-8 col-md-offset-2">
-		  <h1>Question 1.</h1>
-		  <p>Give the alternative name for a Mountain Ash tree.</p>
-		</div>
-		<div class="col-md-8 col-xs-12 col-md-offset-2">
-			<div class="row">
-				<div class="options-border col-md-6 col-xs-6 btn btn-primary btn-lg">MA Tree</div>
-				<div class="options-border col-md-6 col-xs-6 btn btn-primary btn-lg">Mounty</div>
+		<div class="col-md-8 col-md-offset-2">
+			<div class="col-lg-2 col-md-3 text-right hidden-xs hidden-sm">
+				<img src="holder.js/100x100#loggedinUser">
+				<div class="clear-fix"></div>
+				<span><strong>Sagar Pathak</strong></span>
 			</div>
-			<div class="row">
-				<div class="options-border col-md-6 col-xs-6 btn btn-primary btn-lg">Rowan</div>
-				<div class="options-border col-md-6 col-xs-6 btn btn-primary btn-lg">BigFire</div>
+			<div class="col-lg-8 col-md-6">
+				<div class="row hidden-md hidden-lg">
+					<div class="col-sm-6 pull-left">
+						<img src="holder.js/100x100#loggedinUser">
+						<div class="clear-fix"></div>
+						<span><strong>Sagar Pathak</strong></span>
+					</div>
+					<div class="col-sm-6 pull-right text-right">
+						<img src="holder.js/100x100#QuizUser">
+						<div class="clear-fix"></div>
+						<span><strong>Quiz Bot</strong></span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="jumbotron text-center">
+					  <h1>Question 1.</h1>
+					  <p>Give the alternative name for a Mountain Ash tree.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="row">
+						<div class="options-border col-md-6 col-xs-6 btn btn-primary btn-lg">MA Tree</div>
+						<div class="options-border col-md-6 col-xs-6 btn btn-primary btn-lg">Mounty</div>
+					</div>
+					<div class="row">
+						<div class="options-border col-md-6 col-xs-6 btn btn-primary btn-lg">Rowan</div>
+						<div class="options-border col-md-6 col-xs-6 btn btn-primary btn-lg">BigFire</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-3 text-left hidden-xs hidden-sm">
+				<img src="holder.js/100x100#loggedinUser">
+				<div class="clear-fix"></div>
+				<span><strong>Quiz Bot</strong></span>
 			</div>
 		</div>
 	</div>
 
+	<div id="users-device-size">
+	  <div id="xs" class="visible-xs"></div>
+	  <div id="sm" class="visible-sm"></div>
+	  <div id="md" class="visible-md"></div>
+	  <div id="lg" class="visible-lg"></div>
+	</div>
+
+	<script>
+		document.writeln(getBootstrapDeviceSize());
+	</script>
 
 	</body>
 </html>
