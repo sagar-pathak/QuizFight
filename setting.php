@@ -12,9 +12,15 @@
 		<script src="assets/js/jquery-1.10.2.min.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/holder.js"></script>
+		<style>
+		.col-xs-12{
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		</style>
 	</head>
 	<body>
-	  	<nav class="navbar navbar-inverse row">
+	  	<nav class="navbar navbar-inverse">
 		  <div class="container-fluid col-md-8 col-md-offset-2">
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
@@ -28,7 +34,7 @@
 
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
 		      <ul class="nav navbar-nav">
-		        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+		        <li class="active"><a href="topics.php">Browse Topics<span class="sr-only">(current)</span></a></li>
 		        <li><a href="#">Link</a></li>
 		      </ul>
 		      <form class="navbar-form navbar-left" role="search">
@@ -55,61 +61,60 @@
 		  </div>
 		</nav>
 
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<div class="col-lg-9 col-md-8">
-					<table class="table">
-					  <tbody>
-					    <tr class="active">
-					      <td></td>
-					      <td>Name</td>
-					      <td><strong>Sagar Pathak</strong></td>
-					      <td></td>
-					    </tr>
-					    <tr class="active">
-					      <td></td>
-					      <td>Username</td>
-					      <td>sa9ar</td>
-					      <td></td>
-					    </tr>
-					    <tr class="active">
-					      <td></td>
-					      <td>Email</td>
-					      <td>surfer.sagar@gmail.com</td>
-					      <td></td>
-					    </tr>
-					     <tr class="active">
-					      <td></td>
-					      <td>Password</td>
-					      <td>**********</td>
-					      <td></td>
-					    </tr>
-					    <tr class="active">
-					      <td></td>
-					      <td>Address</td>
-					      <td>Anamnagar, Kathmandu, Nepal</td>
-					      <td></td>
-					    </tr>
-					    <tr class="active">
-					      <td></td>
-					      <td>Connect with</td>
-					      <td>
-					      	<button class="fa fa-twitter"></button>
-					      	<button class="fa fa-facebook"></button>
-					      	<button class="fa fa-linkedin"></button>
-					      	<button class="fa fa-pinterest"></button>
-					      	<button class="fa fa-google-plus"></button>
-					      	<button class="fa fa-skype"></button>
-					      </td>
-					      <td></td>
-					    </tr>
-					   </tbody>
-					  </table>
-				</div>
-				 <div class="col-lg-3 col-md-4 hidden-xs hidden-sm pull-right">
-					<img src="holder.js/230x230">
-				</div>
+		<div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+			<div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
+				<table class="table">
+				  <tbody>
+				    <tr class="active">
+				      <td></td>
+				      <td>Name</td>
+				      <td><strong>Sagar Pathak</strong></td>
+				      <td></td>
+				    </tr>
+				    <tr class="active">
+				      <td></td>
+				      <td>Username</td>
+				      <td>sa9ar</td>
+				      <td></td>
+				    </tr>
+				    <tr class="active">
+				      <td></td>
+				      <td>Email</td>
+				      <td>surfer.sagar@gmail.com</td>
+				      <td></td>
+				    </tr>
+				     <tr class="active">
+				      <td></td>
+				      <td>Password</td>
+				      <td>**********</td>
+				      <td></td>
+				    </tr>
+				    <tr class="active">
+				      <td></td>
+				      <td>Address</td>
+				      <td>Anamnagar, Kathmandu, Nepal</td>
+				      <td></td>
+				    </tr>
+				    <tr class="active">
+				      <td></td>
+				      <td>Connect with</td>
+				      <td>
+				      	<button class="fa fa-twitter"></button>
+				      	<button class="fa fa-facebook"></button>
+				      	<button class="fa fa-linkedin"></button>
+				      	<button class="fa fa-pinterest"></button>
+				      	<button class="fa fa-google-plus"></button>
+				      	<button class="fa fa-skype"></button>
+				      </td>
+				      <td></td>
+				    </tr>
+				   </tbody>
+				  </table>
+			</div>
+			 <div class="col-lg-3 col-md-4 hidden-xs hidden-sm pull-right">
+				<img src="holder.js/230x230">
 			</div>
 		</div>
+		<script src="assets/js/checklayout.js"></script>
 	</body>
 </html>

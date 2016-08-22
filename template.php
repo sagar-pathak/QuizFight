@@ -6,12 +6,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<link rel="stylesheet" href="assets/css/bootstrap.css" media="screen">
-		<link rel="stylesheet" href="assets/css/custom.css" media="screen">
 		<script src="assets/js/jquery-1.10.2.min.js"></script>
-		<script src="assets/js/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/holder.js"></script>
 	</head>
 	<body>
-	  	<nav class="navbar navbar-inverse row">
+	  	<nav class="navbar navbar-inverse">
 		  <div class="container-fluid col-md-8 col-md-offset-2">
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
@@ -25,7 +25,7 @@
 
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
 		      <ul class="nav navbar-nav">
-		        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+		        <li class="active"><a href="topics.php">Browse Topics<span class="sr-only">(current)</span></a></li>
 		        <li><a href="#">Link</a></li>
 		      </ul>
 		      <form class="navbar-form navbar-left" role="search">
@@ -52,10 +52,8 @@
 		  </div>
 		</nav>
 
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
+		<div class="col-md-8 col-md-offset-2">
 
-			</div>
 		</div>
 	</body>
 </html>

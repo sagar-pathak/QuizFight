@@ -26,7 +26,7 @@
 		</style>
 	</head>
   <body>
-	  	<nav class="navbar navbar-inverse row">
+	  	<nav class="navbar navbar-inverse">
 		  <div class="container-fluid col-md-8 col-md-offset-2">
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
@@ -40,7 +40,7 @@
 
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
 		      <ul class="nav navbar-nav">
-		        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+		        <li class="active"><a href="topics.php">Browse Topics<span class="sr-only">(current)</span></a></li>
 		        <li><a href="#">Link</a></li>
 		      </ul>
 		      <form class="navbar-form navbar-left" role="search">
@@ -67,7 +67,6 @@
 		  </div>
 		</nav>
 
-	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<div class="col-lg-2 col-md-3 text-right hidden-xs hidden-sm">
 				<img src="holder.js/100x100#loggedinUser">
@@ -110,7 +109,6 @@
 				<span><strong>Quiz Bot</strong></span>
 			</div>
 		</div>
-	</div>
 		<script src="assets/js/checklayout.js"></script>
 	</body>
 </html>
