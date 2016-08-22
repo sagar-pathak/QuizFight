@@ -42,7 +42,7 @@
 		            <li><a href="#">Another action</a></li>
 		            <li><a href="#">Something else here</a></li>
 		            <li class="divider"></li>
-		            <li><a href="profile.php">Profile</a></li>
+		            <li><a href="setting.php">Setting</a></li>
 		            <li class="divider"></li>
 		            <li><a href="login.php">Logout</a></li>
 		          </ul>

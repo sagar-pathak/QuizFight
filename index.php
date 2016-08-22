@@ -9,7 +9,6 @@
 		<script src="assets/js/jquery-1.10.2.min.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/holder.js"></script>
-		<script src="assets/js/custom.js"></script>
 		<style>
 			.options-border {
 			   border: solid white 4px;
@@ -58,7 +57,7 @@
 		            <li><a href="#">Another action</a></li>
 		            <li><a href="#">Something else here</a></li>
 		            <li class="divider"></li>
-		            <li><a href="profile.php">Profile</a></li>
+		            <li><a href="setting.php">Setting</a></li>
 		            <li class="divider"></li>
 		            <li><a href="login.php">Logout</a></li>
 		          </ul>
@@ -112,17 +111,6 @@
 			</div>
 		</div>
 	</div>
-
-	<div id="users-device-size">
-	  <div id="xs" class="visible-xs"></div>
-	  <div id="sm" class="visible-sm"></div>
-	  <div id="md" class="visible-md"></div>
-	  <div id="lg" class="visible-lg"></div>
-	</div>
-
-	<script>
-		document.writeln(getBootstrapDeviceSize());
-	</script>
-
+		<script src="assets/js/checklayout.js"></script>
 	</body>
 </html>
