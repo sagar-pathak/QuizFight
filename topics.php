@@ -26,7 +26,7 @@
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
 		      <ul class="nav navbar-nav">
 		        <li class="active"><a href="topics.php">Browse Topics<span class="sr-only">(current)</span></a></li>
-		        <li><a href="#">Link</a></li>
+		        <li><a href="create.php">Create</a></li>
 		      </ul>
 		      <form class="navbar-form navbar-left" role="search">
 		        <div class="form-group">
@@ -63,6 +63,117 @@
 			</div>
 			<div class="row">
 				<div class="visible-lg">
+					<div class="col-lg-2">
+						<img src="holder.js/130x130#topicIcon">
+						<span>Title1</span>
+					</div>
+					<div class="col-lg-2">
+						<img src="holder.js/130x130#topicIcon">
+						<span>Title2</span>
+					</div>
+					<div class="col-lg-2">
+						<img src="holder.js/130x130#topicIcon">
+						<span>Title3</span>
+					</div>
+					<div class="col-lg-2">
+						<img src="holder.js/130x130#topicIcon">
+						<span>Title4</span>
+					</div>
+					<div class="col-lg-2">
+						<img src="holder.js/130x130#topicIcon">
+						<span>Title5</span>
+					</div>
+					<div class="col-lg-2">
+						<img src="holder.js/130x130#topicIcon">
+						<span>Title6</span>
+					</div>
+				</div>
+				<div class="visible-md">
+					<div class="col-md-2">
+						<img src="holder.js/100x100#topicIcon">
+						<span>Title1</span>
+					</div>
+					<div class="col-md-2">
+						<img src="holder.js/100x100#topicIcon">
+						<span>Title2</span>
+					</div>
+					<div class="col-md-2">
+						<img src="holder.js/100x100#topicIcon">
+						<span>Title3</span>
+					</div>
+					<div class="col-md-2">
+						<img src="holder.js/100x100#topicIcon">
+						<span>Title4</span>
+					</div>
+					<div class="col-md-2">
+						<img src="holder.js/100x100#topicIcon">
+						<span>Title5</span>
+					</div>
+					<div class="col-md-2">
+						<img src="holder.js/100x100#topicIcon">
+						<span>Title6</span>
+					</div>
+				</div>
+				<div class="visible-sm">
+					<div class="col-sm-2">
+						<img src="holder.js/100x100#topicIcon">
+						<span>Title1</span>
+					</div>
+					<div class="col-sm-2">
+						<img src="holder.js/100x100#topicIcon">
+						<span>Title2</span>
+					</div>
+					<div class="col-sm-2">
+						<img src="holder.js/100x100#topicIcon">
+						<span>Title3</span>
+					</div>
+					<div class="col-sm-2">
+						<img src="holder.js/100x100#topicIcon">
+						<span>Title4</span>
+					</div>
+					<div class="col-sm-2">
+						<img src="holder.js/100x100#topicIcon">
+						<span>Title5</span>
+					</div>
+					<div class="col-sm-2">
+						<img src="holder.js/100x100#topicIcon">
+						<span>Title6</span>
+					</div>
+				</div>
+				<div class="visible-xs">
+					<div class="col-xs-2">
+						<img src="holder.js/50x50#topicIcon">
+						<span>Title1</span>
+					</div>
+					<div class="col-xs-2">
+						<img src="holder.js/50x50#topicIcon">
+						<span>Title2</span>
+					</div>
+					<div class="col-xs-2">
+						<img src="holder.js/50x50#topicIcon">
+						<span>Title3</span>
+					</div>
+					<div class="col-xs-2">
+						<img src="holder.js/50x50#topicIcon">
+						<span>Title4</span>
+					</div>
+					<div class="col-xs-2">
+						<img src="holder.js/50x50#topicIcon">
+						<span>Title5</span>
+					</div>
+				</div>
+			</div>
+			<!-- 2nd row -->
+				<div class="row">
+					<div class="col-md-6">
+						Topic Title
+					</div>
+					<div class="col-md-6 text-right">
+						View More
+					</div>
+				</div>
+				<div class="row">
+					<div class="visible-lg">
 					<div class="col-lg-2">
 						<img src="holder.js/130x130#topicIcon">
 						<span>Title1</span>

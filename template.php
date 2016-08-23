@@ -26,7 +26,7 @@
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
 		      <ul class="nav navbar-nav">
 		        <li class="active"><a href="topics.php">Browse Topics<span class="sr-only">(current)</span></a></li>
-		        <li><a href="#">Link</a></li>
+		        <li><a href="create.php">Create</a></li>
 		      </ul>
 		      <form class="navbar-form navbar-left" role="search">
 		        <div class="form-group">
