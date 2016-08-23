@@ -93,19 +93,19 @@
 			    </div>
 			    <div class="form-group answer">
 				        <label for="topictitle" class="col-lg-2 control-label">Ans. 1)</label>
-				      <div class="col-lg-2">
+				      <div class="col-lg-2 has-success">
 				        <input class="form-control" id="topictitle" placeholder="Correct Answer" type="text">
 				      </div>
-				      <div class="col-lg-2">
+				      <div class="col-lg-2 has-error">
 				        <input class="form-control" id="topictitle" placeholder="Wrong Answer 1" type="text">
 				      </div>
-				      <div class="col-lg-2">
+				      <div class="col-lg-2 has-error">
 				        <input class="form-control" id="topictitle" placeholder="Wrong Answer 2" type="text">
 				      </div>
-				      <div class="col-lg-2">
+				      <div class="col-lg-2 has-error">
 				        <input class="form-control" id="topictitle" placeholder="Wrong Answer 3" type="text">
 				      </div>
-					   <div class="col-lg-2">
+					   <div class="col-lg-2 has-error">
 				        <input class="form-control" id="topictitle" placeholder="Wrong Answer 4" type="text">
 				      </div>
 			    </div>
@@ -117,19 +117,19 @@
 			    </div>
 			    <div class="form-group answer">
 				        <label for="topictitle" class="col-lg-2 control-label">Ans. 2)</label>
-				      <div class="col-lg-2">
+				      <div class="col-lg-2 has-success">
 				        <input class="form-control" id="topictitle" placeholder="Correct Answer" type="text">
 				      </div>
-				      <div class="col-lg-2">
+				      <div class="col-lg-2 has-error">
 				        <input class="form-control" id="topictitle" placeholder="Wrong Answer 1" type="text">
 				      </div>
-				      <div class="col-lg-2">
+				      <div class="col-lg-2 has-error">
 				        <input class="form-control" id="topictitle" placeholder="Wrong Answer 2" type="text">
 				      </div>
-				      <div class="col-lg-2">
+				      <div class="col-lg-2 has-error">
 				        <input class="form-control" id="topictitle" placeholder="Wrong Answer 3" type="text">
 				      </div>
-					   <div class="col-lg-2">
+					   <div class="col-lg-2 has-error">
 				        <input class="form-control" id="topictitle" placeholder="Wrong Answer 4" type="text">
 				      </div>
 			    </div>
@@ -141,19 +141,19 @@
 			    </div>
 			    <div class="form-group answer">
 				        <label for="topictitle" class="col-lg-2 control-label">Ans. 3)</label>
-				      <div class="col-lg-2">
+				      <div class="col-lg-2 has-success">
 				        <input class="form-control" id="topictitle" placeholder="Correct Answer" type="text">
 				      </div>
-				      <div class="col-lg-2">
+				      <div class="col-lg-2 has-error">
 				        <input class="form-control" id="topictitle" placeholder="Wrong Answer 1" type="text">
 				      </div>
-				      <div class="col-lg-2">
+				      <div class="col-lg-2 has-error">
 				        <input class="form-control" id="topictitle" placeholder="Wrong Answer 2" type="text">
 				      </div>
-				      <div class="col-lg-2">
+				      <div class="col-lg-2 has-error">
 				        <input class="form-control" id="topictitle" placeholder="Wrong Answer 3" type="text">
 				      </div>
-					   <div class="col-lg-2">
+					   <div class="col-lg-2 has-error">
 				        <input class="form-control" id="topictitle" placeholder="Wrong Answer 4" type="text">
 				      </div>
 			    </div>
@@ -165,19 +165,19 @@
 			    </div>
 			    <div class="form-group answer">
 				        <label for="topictitle" class="col-lg-2 control-label">Ans. 4)</label>
-				      <div class="col-lg-2">
+				      <div class="col-lg-2 has-success">
 				        <input class="form-control" id="topictitle" placeholder="Correct Answer" type="text">
 				      </div>
-				      <div class="col-lg-2">
+				      <div class="col-lg-2 has-error">
 				        <input class="form-control" id="topictitle" placeholder="Wrong Answer 1" type="text">
 				      </div>
-				      <div class="col-lg-2">
+				      <div class="col-lg-2 has-error">
 				        <input class="form-control" id="topictitle" placeholder="Wrong Answer 2" type="text">
 				      </div>
-				      <div class="col-lg-2">
+				      <div class="col-lg-2 has-error">
 				        <input class="form-control" id="topictitle" placeholder="Wrong Answer 3" type="text">
 				      </div>
-					   <div class="col-lg-2">
+					   <div class="col-lg-2 has-error">
 				        <input class="form-control" id="topictitle" placeholder="Wrong Answer 4" type="text">
 				      </div>
 			    </div>
